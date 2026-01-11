@@ -3,7 +3,6 @@ import time
 from solver_base import NQueensBaseSolver
 
 class NQueensSolver(NQueensBaseSolver):
-    
     def solve_one_solution(self):
         board = [-1] * self.N
         self.steps = 0
