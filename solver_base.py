@@ -1,4 +1,6 @@
-from abc import ABC, abstractmethod
+import random
+import time
+from abc import ABC, abstractmethod  
 
 class NQueensBaseSolver(ABC):
     def __init__(self, N):
@@ -9,13 +11,27 @@ class NQueensBaseSolver(ABC):
     def solve_one_solution(self):
         pass
 
-    # def compute_conflicts(self, board):
-    #     conflicts = 0
-    #     for i in range(self.N):
-    #         for j in range(i+1, self.N):
-    #             if board[i] == board[j] or abs(board[i]-board[j]) == abs(i-j):
-    #                 conflicts += 1
-    #     return conflicts
+    # Heuristic Function 1 (h1): Number of Conflicted Queens
+    def h1(self, board):
+        """Count queens involved in at least one conflict."""
+        if board is None:
+            return None
+        
+        N = len(board)
+        conflicted_queens = set()
+        
+        for i in range(N):
+            for j in range(i + 1, N):
+                if board[i] == board[j] or abs(board[i] - board[j]) == abs(i - j):
+                    conflicted_queens.add(i)
+                    conflicted_queens.add(j)
+        
+        return len(conflicted_queens)
+
+    # Heuristic Function 2 (h2): Total Number of Conflicting Pairs
+    def h2(self, board):
+        """Count total conflicting pairs (existing compute_conflicts)."""
+        return self.compute_conflicts(board)
 
     def compute_conflicts(self, board):
         if board is None:
