@@ -56,7 +56,7 @@ Each algorithm uses a different approach to explore the solution space and reach
 4. Run the following command:
 
 
-python main.py
+  python main.py
 
 ---
 
@@ -73,7 +73,7 @@ It is designed to be useful for:
 
 ## 👩‍💻 Author  
 
-**Waad Sadek**  
-Faculty of Computers and Artificial Intelligence  
-Helwan University  
+  **Waad Sadek**  
+  Faculty of Computers and Artificial Intelligence  
+  Helwan University  
 ```bash
