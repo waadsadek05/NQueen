@@ -55,7 +55,7 @@ Each algorithm uses a different approach to explore the solution space and reach
 3. Open a terminal in the project folder.  
 4. Run the following command:
 
-```bash
+
 python main.py
 
 ---
@@ -76,3 +76,4 @@ It is designed to be useful for:
 **Waad Sadek**  
 Faculty of Computers and Artificial Intelligence  
 Helwan University  
+```bash
