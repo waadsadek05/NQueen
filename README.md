@@ -60,20 +60,19 @@ python main.py
 
 ---
 
-🎯 Educational Purpose
+## 🎯 Educational Purpose  
 
-This project was developed to demonstrate how Artificial Intelligence search algorithms work in practice when applied to a classical constraint satisfaction problem.
+This project was developed to demonstrate how **Artificial Intelligence search algorithms** work in practice when applied to a classical **constraint satisfaction problem**.
 
-It is ideal for:
+It is designed to be useful for:
+- AI students  
+- Algorithm analysis  
+- Academic demonstrations  
 
-    AI students
-    
-    Algorithm analysis
-    
-    Academic demonstrations
+---
 
-👩‍💻 Author
+## 👩‍💻 Author  
 
-    Waad Sadek
-    Faculty of Computers and Artificial Intelligence
-    Helwan University
+**Waad Sadek**  
+Faculty of Computers and Artificial Intelligence  
+Helwan University  
