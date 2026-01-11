@@ -1,58 +1,59 @@
-♛ N-Queen AI Puzzle Solver
+# ♛ N-Queen AI Solver  
 
-This project is an Artificial Intelligence application that solves the N-Queen problem using multiple search algorithms implemented in Python with a Graphical User Interface (GUI).
+An Artificial Intelligence project that solves the **N-Queen Problem** using multiple search algorithms implemented in **Python** with a **Graphical User Interface (GUI)**.
 
-The goal is to place N queens on an N×N chessboard such that no two queens attack each other.
+> The N-Queen problem aims to place N queens on an N×N chessboard so that no two queens attack each other.
 
-🚀 Features
+---
 
-Interactive GUI
+## 🚀 Project Overview  
 
-Visual solution for the N-Queen problem
+This project demonstrates how different AI search strategies can be applied to solve the same problem and compares their effectiveness.  
+The system provides a visual interface that allows users to see how each algorithm finds a solution.
 
-Comparison between different AI algorithms
+---
 
-Easy to run and modify
+## 🧠 Implemented Algorithms  
 
-🤖 Algorithms Implemented
+- **Backtracking**  
+- **Hill Climbing**  
+- **Best First Search**  
+- **Cultural Algorithm**  
 
-Backtracking
+Each algorithm uses a different approach to explore the solution space and reach a valid board configuration.
 
-Hill Climbing
+---
 
-Best First Search
+## 🖥 Features  
 
-Cultural Algorithm
+- Interactive graphical user interface  
+- Visual representation of the chessboard  
+- Multiple solving techniques  
+- Easy to run and modify  
+- Suitable for AI and algorithm analysis  
 
-Each algorithm tries to find a valid configuration of queens using a different search strategy.
+---
 
-📁 Project Structure
-File	Description
-main.py	Runs the program
-gui.py	Handles the graphical user interface
-solver_base.py	Base class for all solvers
-solver_backtracking.py	Backtracking algorithm
-solver_hillclimbing.py	Hill Climbing algorithm
-solver_bestfirst.py	Best First Search algorithm
-solver_cultural.py	Cultural Algorithm
-▶ How to Run
+## 📂 Project Structure  
 
-Make sure Python is installed.
+| File | Description |
+|------|-------------|
+| `main.py` | Entry point of the application |
+| `gui.py` | Handles the graphical interface |
+| `solver_base.py` | Base class for all solvers |
+| `solver_backtracking.py` | Backtracking algorithm |
+| `solver_hillclimbing.py` | Hill Climbing algorithm |
+| `solver_bestfirst.py` | Best First Search algorithm |
+| `solver_cultural.py` | Cultural Algorithm |
 
-Download the project from GitHub.
+---
 
-Open a terminal inside the project folder.
+## ▶ How to Run  
 
-Run:
+1. Make sure **Python** is installed on your machine.  
+2. Download or clone this repository.  
+3. Open a terminal in the project folder.  
+4. Run the following command:
 
+```bash
 python main.py
-
-🎓 About
-
-This project was developed as part of an Artificial Intelligence course to demonstrate different search strategies applied to the N-Queen problem.
-
-👩‍💻 Author
-
-Waad Sadek
-Faculty of Computers and Artificial Intelligence
-Helwan University
