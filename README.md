@@ -57,3 +57,23 @@ Each algorithm uses a different approach to explore the solution space and reach
 
 ```bash
 python main.py
+
+---
+
+🎯 Educational Purpose
+
+This project was developed to demonstrate how Artificial Intelligence search algorithms work in practice when applied to a classical constraint satisfaction problem.
+
+It is ideal for:
+
+    AI students
+    
+    Algorithm analysis
+    
+    Academic demonstrations
+
+👩‍💻 Author
+
+    Waad Sadek
+    Faculty of Computers and Artificial Intelligence
+    Helwan University
